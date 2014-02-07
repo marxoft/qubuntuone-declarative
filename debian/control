@@ -1,0 +1,12 @@
+Source: libqubuntuone-declarative
+Section: libs
+Priority: optional
+Maintainer: Stuart Howarth <showarth@marxoft.co.uk>
+Homepage: http://marxoft.co.uk/libqubuntuone
+Build-Depends: debhelper (>= 5), libqt4-dev, libqubuntuone-dev (>= 0.0.3)
+
+Package: libqubuntuone-declarative
+Architecture: armel
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqubuntuone (>= 0.0.3)
+Description: A declarative plugin for the libqubuntuone shared library 
+ that provides access to the Ubuntu One file storage API using QML.
